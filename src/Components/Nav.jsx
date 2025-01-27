@@ -9,19 +9,19 @@ function Nav() {
       <nav className="text-white font-bold ">
         <ul className="min-[950px]:flex gap-5 ">
           <li className="hover:underline">
-            <a href="#inicio">Início</a>
+            <a href="/">Início</a>
           </li>
           <li className="hover:underline">
-            <a href="#conteudo">Conteúdo</a>
+            <a href="conteudo">Conteúdo</a>
           </li>
           <li className="hover:underline">
-            <a href="#videos">Vídeos</a>
+            <a href="videos">Vídeos</a>
           </li>
           <li className="hover:underline">
-            <a href="#autores">Autores</a>
+            <a href="autores">Autores</a>
           </li>
           <li className="hover:underline">
-            <a href="#contato">Contato</a>
+            <a href="contato">Contato</a>
           </li>
         </ul>
       </nav>

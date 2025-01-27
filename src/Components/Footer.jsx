@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-green-300 flex flex-col gap-5 items-center py-10 text-white">
+    <footer className="bg-green-300 flex flex-col gap-5 items-center py-10 text-white absolute bottom-0">
       <nav className="font-bold flex gap-5 flex-wrap">
         <a className="hover:text-green-800" href="">
           Políticas de Privacidade
