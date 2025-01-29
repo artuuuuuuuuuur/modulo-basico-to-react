@@ -25,15 +25,15 @@ function Nav() {
           </li>
         </ul>
       </nav>
-      <form className="min-[950px]:flex" action="/enviar">
+      <form className="min-[950px]:flex gap-4 flex flex-row" action="/enviar">
         <input
-          className="form-control me-2"
+          className="bg-white rounded-md border border-gray-300 px-2"
           type="search"
           placeholder="Ex.: Memórias Póstumas de Brás Cubas"
           aria-label="Search"
           required
         ></input>
-        <button type="submit" className="btn btn-success">
+        <button type="submit" className="bg-green-200 px-5 py-1 rounded-md hover:bg-green-700 hover:text-white ">
           Pesquisar
         </button>
       </form>
