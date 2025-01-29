@@ -12,7 +12,7 @@ function Contato() {
             <input
               id="nome"
               name="nome"
-              className="form-control me-2 flex-grow-1"
+              className="flex-grow-1 border rounded-md mx-2 px-2 mb-5 border-gray-300"
               type="search"
               placeholder="Ex.: João da Silva"
               aria-label="Search"
@@ -27,7 +27,7 @@ function Contato() {
               id="email"
               name="email"
               placeholder="exemplo@dominio.com"
-              className=" flex-grow-1 form-control me-2"
+              className=" flex-grow-1 border rounded-md mx-2 px-2 mb-5 border-gray-300"
               aria-label="Search"
               required
             />
@@ -40,7 +40,7 @@ function Contato() {
             id="assunto"
             name="assunto"
             required
-            className="p-2 border rounded-lg"
+            className="border rounded-md mx-2 px-2 mb-5 border-gray-300"
           >
             <option value="" disabled selected>
               Selecione um assunto
@@ -59,9 +59,12 @@ function Contato() {
             name="mensagem"
             placeholder="Digite sua mensagem"
             required
-            className="p-2 border rounded"
+            className="flex-grow-1 w-screen border rounded-md mx-2 px-2 mb-5 border-gray-300 "
           ></textarea>
-          <button type="submit" className="btn btn-success w-full mt-2">
+          <button
+            type="submit"
+            className="flex-grow-1 border-3 max-h-10 rounded-md mx-2 px-2 mb-5 border-green-600 text-green-600 hover:bg-green-600 hover:text-white"
+          >
             Enviar
           </button>
         </label>
