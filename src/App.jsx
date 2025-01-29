@@ -12,9 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Nav />
-      <main
-        className="bg-gray-200 min-[950px]:px-32 py-10 gap-4 h-svw overflow-hidden overflow-y-hidden"
-      >
+      <main className="bg-gray-200 min-[950px]:px-32 py-10 min-h-[672px]">
         <Routes>
           <Route index element={<IndexPage />} />
           <Route path="conteudo" element={<Conteudo />} />
@@ -29,4 +27,5 @@ function App() {
 }
 
 export default App;
+
 
